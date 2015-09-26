@@ -8,7 +8,7 @@ public class LookAt : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		Taylor = GameObject.Find("Taylor");
+		Taylor = GameObject.Find("Camera");
 	
 	}
 	
