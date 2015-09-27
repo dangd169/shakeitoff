@@ -23,8 +23,15 @@ public class BubbleHomeless : MonoBehaviour {
 	public GameObject RedSkin;
 
 	public GameObject Exclaim;
+	public GameObject Speech;
+
+	public AudioSource Anger;
+	public AudioSource Coin;
+
+	bool exhausted;
+
 	
-	static public int colorNumber;
+	public int colorNumber;
 	
 	void Start () {
 		rate = new Vector3(.05f,.05f,0f);
@@ -35,9 +42,7 @@ public class BubbleHomeless : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-		
-		
+
 		if(colorNumber <= 1){
 			Blue.SetActive(true);
 		}
@@ -61,7 +66,6 @@ public class BubbleHomeless : MonoBehaviour {
 		else{
 			Red.SetActive(false);
 		}
-		
 		if (transform.localScale.y <= startSize.y){
 			shrink = false;
 		}
@@ -69,7 +73,6 @@ public class BubbleHomeless : MonoBehaviour {
 		if(shrink == true){
 			transform.localScale -= rate *.55f;
 		}
-		
 	}
 	void ExpandBubble (){
 		if(shrink == false){
@@ -79,51 +82,90 @@ public class BubbleHomeless : MonoBehaviour {
 			shrink = true;
 		}
 	}
-	
+
+
+
+
+
 	void Pop (){
 		colorNumber = Random.Range(0,5);
 		gameObject.SetActive(false);
-		
 	}
-
 	void PopDelayGreen(){
+
+		if(!exhausted){
+		Coin.Play();
 		GreenSkin.SetActive(true);
 		GreenQ.SetActive(false);
 		Invoke ("Pop",1f);
+		exhausted = true;
+		}else{
+			exhausted = true;
+		}
+
+
 	}
 	void PopDelayBlue(){
+
+		if(!exhausted){
+		Coin.Play();
 		BlueSkin.SetActive(true);
 		BlueQ.SetActive(false);
 		Invoke ("Pop",1f);
+			exhausted = true;
+		}else{
+			exhausted = true;
+		}
 	}
 	void PopDelayRed(){
+
+		if(!exhausted){
+		Coin.Play();
 		RedSkin.SetActive(true);
 		RedQ.SetActive(false);
 		Invoke ("Pop",1f);
+			exhausted = true;
+		}else{
+			exhausted = true;
+		}
 	}
 	void PopDelayYellow(){
+
+		if(!exhausted){
+		Coin.Play();
 		YellowSkin.SetActive(true);
 		YellowQ.SetActive(false);
 		Invoke ("Pop",1f);
+			exhausted = true;
+		}else{
+			exhausted = true;
+		}
 	}
 
 	void Wrong () {
+
+		if(!exhausted){
+
+		Anger.Play();
 		Exclaim.SetActive (true);
 		YellowQ.SetActive(false);
 		RedQ.SetActive(false);
 		BlueQ.SetActive(false);
 		GreenQ.SetActive(false);
 		Invoke ("WrongPop",1f);
+			exhausted = true;
+		}else{
+			exhausted = true;
+		}
 	}
 
 	void WrongPop(){
+		colorNumber = Random.Range(0,5);
 		gameObject.SetActive(false);
 	}
 
 
-	
 
 	
 
-	
 }
