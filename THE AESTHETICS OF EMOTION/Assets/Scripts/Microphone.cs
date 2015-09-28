@@ -18,27 +18,27 @@ public class Microphone : MonoBehaviour {
 			if(hit.collider.tag == "Green"){
 				hit.collider.SendMessageUpwards("ExpandBubble");
 				if(Input.GetButtonDown("AButton")){
-					hit.collider.SendMessageUpwards("Pop");
+					hit.collider.SendMessageUpwards("PopDelay");
 				}
 			}
 
 			if(hit.collider.tag == "Blue"){
 				hit.collider.SendMessageUpwards("ExpandBubble");
 				if(Input.GetButtonDown("XButton")){
-					hit.collider.SendMessageUpwards("Pop");
+					hit.collider.SendMessageUpwards("PopDelay");
 				}
 			}
 
 			if(hit.collider.tag == "Red"){
 				hit.collider.SendMessageUpwards("ExpandBubble");
 				if(Input.GetButtonDown("BButton")){
-					hit.collider.SendMessageUpwards("Pop");
+					hit.collider.SendMessageUpwards("PopDelay");
 				}
 			}
 			if(hit.collider.tag == "Yellow"){
 				hit.collider.SendMessageUpwards("ExpandBubble");
 				if(Input.GetButtonDown("YButton")){
-					hit.collider.SendMessageUpwards("Pop");
+					hit.collider.SendMessageUpwards("PopDelay");
 				}
 			}
 		

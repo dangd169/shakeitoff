@@ -12,6 +12,9 @@ public class Bubble : MonoBehaviour {
 	public GameObject Yellow;
 	public GameObject Red;
 
+	bool exhausted;
+	public AudioSource Win;
+
 	static public int colorNumber;
 
 	void Start () {
@@ -68,11 +71,20 @@ public class Bubble : MonoBehaviour {
 		}
 	}
 
-	void Pop (){
+	void PopDelay (){
+		if(!exhausted){
+		Win.Play();
+		exhausted = true;
+		Invoke("Pop",.25f);
+		}else{
+			exhausted = false;
+		}
+	}
+
+	void Pop(){
 		FanSpeech.activeFan = Random.Range(1,36);
 		colorNumber = Random.Range(0,5);
 		gameObject.SetActive(false);
-
 	}
 
 }
