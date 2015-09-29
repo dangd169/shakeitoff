@@ -6,11 +6,12 @@ public class lightMove : MonoBehaviour {
 	float targetZ;
 	float targetNZ;
 	public Transform targetRot;
-	public Transform targetNRot;
+	//public Transform targetNRot;
 	float speed = 10;
 
 	// Use this for initialization
 	void Start () {
+		InvokeRepeating("Switch", 0f, 2f);
 
 	}
 	
@@ -23,6 +24,12 @@ public class lightMove : MonoBehaviour {
 
 
 
+
 	
+	}
+
+
+	void Switch () {
+		speed = speed *-1;
 	}
 }
