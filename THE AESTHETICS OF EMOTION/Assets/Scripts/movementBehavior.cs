@@ -8,6 +8,7 @@ public class movementBehavior : MonoBehaviour {
 	float taxiPosition;
 
 	void Start () {
+
 		taxiSpeed = Random.Range (3,5);
 		strangerSpeed = Random.Range (1,3);
 	
@@ -38,6 +39,20 @@ public class movementBehavior : MonoBehaviour {
 		taxiSpeed = Random.Range (4,5);
 		transform.Rotate(0,180,0);
 		
+	}
+
+	void walkFast () {
+		strangerSpeed = strangerSpeed + 3;
+	}
+
+	void walkSlow () {
+		strangerSpeed = 0;
+		Invoke("resumeWalk",1f);
+
+	}
+
+	void resumeWalk(){
+		strangerSpeed = Random.Range (1,3);
 	}
 
 }
