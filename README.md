@@ -8,11 +8,11 @@ Make a first-person perspective game that is not a shooter. Create at least two 
 
 
 Hey Nick,
-The .exe file is zipped in a folder called TaylorTest.
-The first part of the game changes based on time but the second part goes on forever, so feel free to just exit the game when you have a feeling of what it is.
-The game was designed to be played with a PS4/PS3 controller. (You can play with an xBox controller but the UI won't make sense)
+The .exe file is zipped in a folder called TaylorTest. <p>
+The first part of the game changes based on time but the second part goes on forever, so feel free to just exit the game when you have a feeling of what it is.<p>
+The game was designed to be played with a PS4/PS3 controller. (You can play with an xBox controller but the UI won't make sense) <p>
 
-Thanks,
+Thanks,<p>
 -Danny
 
 
