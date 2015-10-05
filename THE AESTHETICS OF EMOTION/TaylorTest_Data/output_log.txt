@@ -19,7 +19,8 @@ Loading C:\Users\short\Documents\shakeitoff\THE AESTHETICS OF EMOTION\TaylorTest
 Platform assembly: C:\Users\short\Documents\shakeitoff\THE AESTHETICS OF EMOTION\TaylorTest_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\short\Documents\shakeitoff\THE AESTHETICS OF EMOTION\TaylorTest_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
 Platform assembly: C:\Users\short\Documents\shakeitoff\THE AESTHETICS OF EMOTION\TaylorTest_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.057 seconds
+- Completed reload, in  0.056 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
+<RI> Initialized touch support.
