@@ -6,34 +6,20 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     1990 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\short\Documents\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\short\Documents\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\short\Documents\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading C:\Users\short\Documents\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: C:\Users\short\Documents\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\short\Documents\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\short\Documents\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\short\Documents\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\short\Documents\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\short\Documents\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\short\Documents\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading C:\Users\short\Documents\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-Platform assembly: C:\Users\short\Documents\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.852 seconds
+Platform assembly: C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.073 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-<RI> Initialized touch support.
-Platform assembly: C:\Users\short\Documents\shakeitoff\THE AESTHETICS OF EMOTION\taylorswift_Data\Managed\System.dll (this message is harmless)
-Setting up 1 worker threads for Enlighten.
-  Thread -> id: 2b58 -> priority: 1 
-Joystick connected ("Controller (Xbox One For Windows)").
- 
-(Filename:  Line: 1353)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 13.957139 ms
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 10024.
-Total: 1.506228 ms (FindLiveObjects: 0.453633 ms CreateObjectMapping: 0.135474 ms MarkObjects: 0.825982 ms  DeleteObjects: 0.090316 ms)
-
